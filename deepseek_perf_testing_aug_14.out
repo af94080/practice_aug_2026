@@ -1,0 +1,70 @@
+ANSWER: The capital of France is **Paris**.
+Runtime: 1.45 seconds
+Prompt tokens: 11
+Completion tokens: 55
+Reasoning tokens: 45
+Total tokens: 66
+ANSWER: Sunlight is made up of all colors, and when it enters Earth's atmosphere, it collides with tiny air molecules. Because blue light has a shorter wavelength, it is scattered in all directions much more than other colors, so we see a blue sky from the scattered light reaching our eyes.
+Runtime: 3.28 seconds
+Prompt tokens: 14
+Completion tokens: 256
+Reasoning tokens: 195
+Total tokens: 270
+ANSWER: Here are three key advantages of using Snowflake:
+
+**1. Separation of Storage and Compute (Cost Efficiency & Flexibility)**  
+Snowflake's architecture physically separates data storage from compute resources. This means you can scale storage up or down independently of compute, and vice versa. You only pay for the storage you use and the compute you actually run, and you can pause compute clusters entirely when they aren't needed. This eliminates the "idle cluster" problem common in traditional data warehouses, saving significant costs while allowing you to scale resources instantly without downtime.
+
+**2. Elastic Scalability and High Concurrency (Multi-Cluster Architecture)**  
+Snowflake uses a unique multi-cluster shared-data architecture. When multiple users or queries run simultaneously, Snowflake automatically spins up additional virtual warehouses (compute clusters) to handle the load without performance degradation. This means you can have thousands of concurrent users querying the same data without experiencing lockouts or slowdowns, making it ideal for large organizations with diverse analytics teams.
+
+**3. Secure, Governed Data Sharing (Zero-Copy Sharing)**  
+Snowflake allows you to share live, query-ready data with external partners, customers, or internal teams without copying or moving the data. Through the Snowflake Data Cloud and its Data Marketplace, you can grant access to specific tables or views while maintaining full governance and security controls. The recipient only sees the data you share, and they can query it instantly—ensuring data consistency and eliminating the need for complex ETL pipelines or file transfers.
+Runtime: 12.56 seconds
+Prompt tokens: 13
+Completion tokens: 781
+Reasoning tokens: 475
+Total tokens: 794
+ANSWER: Here's a simple Python function that reverses a string using slicing:
+
+```python
+def reverse_string(s: str) -> str:
+    """
+    Reverses the input string.
+
+    Args:
+        s (str): The string to reverse.
+
+    Returns:
+        str: The reversed string.
+    """
+    return s[::-1]
+```
+
+**Usage example:**
+```python
+print(reverse_string("hello"))  # Output: "olleh"
+```
+
+**Alternative implementations:**
+- Using `reversed()` and `join()`: `return ''.join(reversed(s))`
+- Using a loop: 
+  ```python
+  result = ""
+  for char in s:
+      result = char + result
+  return result
+  ```
+
+The slicing method is the most concise and Pythonic.
+Runtime: 3.54 seconds
+Prompt tokens: 13
+Completion tokens: 321
+Reasoning tokens: 158
+Total tokens: 334
+ANSWER: 
+Runtime: 13.39 seconds
+Prompt tokens: 15
+Completion tokens: 1000
+Reasoning tokens: 1000
+Total tokens: 1015
