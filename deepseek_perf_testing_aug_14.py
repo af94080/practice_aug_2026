@@ -19,6 +19,10 @@ def get_response(user_prompt):
 	response = client.chat.completions.create(
 	model=MODEL,
 	messages=[
+		{
+		"role": "system",
+		"content": "Answer as concisely as possible. For code requests, return only the code with minimal explanation."
+		},
         {
 		"role": "user",
 		"content": user_prompt
